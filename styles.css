@@ -8,11 +8,11 @@
   body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
-    color: #333;
+    color: #de38b5;
   }
   
   header {
-    background-color: #4CAF50;
+    background-color: #d481ba;
     color: white;
     padding: 20px;
     text-align: center;
@@ -32,27 +32,9 @@
     gap: 20px;
   }
   
-  .card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    width: 250px;
-  }
-  
-  .card h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .card p {
-    font-size: 1rem;
-    margin-bottom: 20px;
-  }
   
   .btn {
-    background-color: #4CAF50;
+    background-color: #d481ba;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -60,7 +42,7 @@
   }
   
   .btn:hover {
-    background-color: #45a049;
+    background-color: #d481ba;
   }
   
   .podcast-detail {
@@ -74,7 +56,7 @@
   }
   
   .like-btn {
-    background-color: #ff4081;
+    background-color: #d481ba;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -84,7 +66,7 @@
   }
   
   .like-btn:hover {
-    background-color: #f50057;
+    background-color: #d481ba;
   }
   
   footer {
@@ -97,3 +79,30 @@
     bottom: 0;
   }
   
+.card1{
+  left: 5%;
+  width: 35%;
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.card2{
+  left: 5%;
+  right: ;
+  width: 35%;
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.card3{
+  left: 5%;
+  width: 35%;
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
