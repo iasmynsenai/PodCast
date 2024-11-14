@@ -1,108 +1,111 @@
 /* Reset de estilos padrões */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #de38b5;
-  }
-  
-  header {
-    background-color: #d481ba;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 2.5rem;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  .podcast-cards {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-  }
-  
-  
-  .btn {
-    background-color: #d481ba;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .btn:hover {
-    background-color: #d481ba;
-  }
-  
-  .podcast-detail {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 80%;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .like-btn {
-    background-color: #d481ba;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-  }
-  
-  .like-btn:hover {
-    background-color: #d481ba;
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-  }
-  
-.card1{
-  left: 5%;
-  width: 35%;
-  z-index: 3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #de38b5;
+}
+
+header {
+  background-color: #d481ba;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+a {
+  color: #de38b5;
+}
+
+main {
+  padding: 20px;
+}
+
+.podcast-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+
+.btn {
+  background-color: #d481ba;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #d481ba;
+}
+
+.podcast-detail {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.like-btn {
+  background-color: #d481ba;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.like-btn:hover {
+  background-color: #d481ba;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
   position: fixed;
   width: 100%;
   bottom: 0;
 }
 
-.card2{
+.card1 {
   left: 5%;
-  right: ;
   width: 35%;
   z-index: 3;
   position: fixed;
-  width: 100%;
-  bottom: 0;
+  bottom: 200;
+  width: 15%;
 }
 
-.card3{
-  left: 5%;
+.card2 {
+  left: 75%;
   width: 35%;
   z-index: 3;
   position: fixed;
-  width: 100%;
-  bottom: 0;
+  bottom: 200;
+  width: 15%;
+}
+
+.card3 {
+  left: 40%;
+  width: 35%;
+  z-index: 3;
+  position: fixed;
+  bottom: 200;
+  width: 15%;
 }
